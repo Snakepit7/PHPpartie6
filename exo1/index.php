@@ -6,7 +6,7 @@
   </head>
   <body>
       <?php
-       echo (isset($_GET['firstname']) ? htmlentities($_GET['firstname']) : "Le prénom est introuvable"); 
+       echo (isset($_GET['firstname']) ? htmlentities($_GET['firstname']) : "Le prénom est introuvable") . ' '; 
        echo (isset($_GET['lastname']) ? htmlentities($_GET['lastname']) : "Le prénom est introuvable");
       ?>
   </body>
